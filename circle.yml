@@ -2,6 +2,10 @@ machine:
   pre:
     - sleep 30
 
+checkout:
+  post:
+    - ls -la
+
 dependencies:
   override:
     - exit 0
