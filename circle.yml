@@ -8,6 +8,6 @@ dependencies:
 
 test:
   override:
-    - exit 0
+    - cat /opt/circleci/image_version
 
 
