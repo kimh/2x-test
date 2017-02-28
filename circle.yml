@@ -1,9 +1,7 @@
 dependencies:
   override:
-    - exit 0
+    - ls /opt/circleci/ruby/
 
 test:
   override:
     - exit 0
-
-
