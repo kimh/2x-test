@@ -1,7 +1,11 @@
+machine:
+  ruby:
+    version: 2.3.3
+
 dependencies:
   override:
     - ls /opt/circleci/ruby/
 
 test:
   override:
-    - exit 0
+    - ruby --version
